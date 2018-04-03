@@ -6,16 +6,38 @@ body {
   background-position: center;
   font-family:fantasy;
   margin: auto auto auto auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 body > h1 {
   text-align: center;
+  color: blue;
 }
+
+body > p {
+  font-size: 24px;
+  padding: 12px;
+}
+
+header > h1 {
+  font-size: 48px;
+  padding-top: 48px;
+  text-align: center;
+  color: red;
+}
+
+body > ul > li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 
 html {
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  background-attachment: fixed;
   height: 100%;
   margin: 0; padding: 0; border: 0;
 }
