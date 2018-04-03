@@ -4,15 +4,22 @@ body {
   min-height: 100%;
   align-self: center;
   background-position: center;
-  font-family:fantasy;
+  font-family:cursive;
   margin: auto auto auto auto;
   padding-left: 30px;
   padding-right: 30px;
+  filter:drop-shadow(30px 10px 4px #000000);
+}
+
+body > header {
+
 }
 
 body > h1 {
   text-align: center;
   color: blue;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 body > p {
@@ -27,14 +34,22 @@ header > h1 {
   color: red;
 }
 
-body > ul > li {
-  padding-top: 4px;
-  padding-bottom: 4px;
+body > ul {
+  font-size:24px;
 }
 
+body > ul > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+body > ul > li:last-child {
+  padding-bottom: 48px;
+}
 
 html {
-  background-image: url(images/background.jpg);
+  background-image: url(images/background2.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
